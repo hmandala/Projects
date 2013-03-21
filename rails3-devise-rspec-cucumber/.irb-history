@@ -1,0 +1,7 @@
+ENV["GMAIL_USERNAME"]
+load('config/application.yml')
+require 'yaml'
+YAML::load_file('config/application.yml')
+ENV = YAML::load_file('config/application.yml')
+ENV["GMAIL_USERNAME"] 
+exit
