@@ -1,1 +1,0 @@
-1) The 'basic' directory contains a feature and rb file that are based on the tutorial given at http://khughes88.wordpress.com/2010/08/30/cucumber-and-watir-a-quick-tutorial-for-testers/. I just swapped out the Watir for Selenium.
