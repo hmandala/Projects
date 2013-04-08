@@ -1,7 +1,5 @@
 package com.harish.restexperiments.postprocessor;
 
-import static org.jboss.netty.handler.codec.http.HttpHeaders.Names.LAST_MODIFIED;
-
 import com.strategicgains.restexpress.Request;
 import com.strategicgains.restexpress.Response;
 import com.strategicgains.restexpress.pipeline.Postprocessor;
