@@ -1,0 +1,11 @@
+build/
+bin/
+dist/
+target/
+.DS_Store
+.project
+.classpath
+.settings
+.jar
+.war
+.class
