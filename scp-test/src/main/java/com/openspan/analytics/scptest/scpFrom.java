@@ -19,9 +19,9 @@ public class scpFrom
         try
         {
             JSch jsch = new JSch();
-            jsch.addIdentity("/home/hmandala/Desktop/AWS/Keys/ML1Key.pem");
+            jsch.addIdentity("key loc here");
 
-            Session session = jsch.getSession("ubuntu", "ec2-54-235-57-146.compute-1.amazonaws.com", 22);
+            Session session = jsch.getSession("ubuntu", "url here", 22);
             System.out.println("session created.");
 
             java.util.Properties config = new java.util.Properties();
